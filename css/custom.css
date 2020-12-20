@@ -1,111 +1,453 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat&display=swap');
 
-body {
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 100%;
-    background-color: #8fae5d;
-    background: url(../img/fondo.jpg)no-repeat center top;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height: 747px;
-    background-attachment: fixed;
-}
-
-h1 {
-    font-size: 43px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-    word-spacing: 11px;
-    letter-spacing: 6px;
-    margin: 1.1em 0;
-    text-align: center;
-    font-family: 'Comfortaa';
-}
-
-.book-appointment {
-    background: #c1c45e;
-    padding: 50px 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
-    width: 85%;
-    color: #fff;
-    outline: none;
-    font-size: 0.9em;
-    line-height: 25px;
-    padding: 5px 10px;
-    border: none;
-    border-bottom: 2px solid #332f2d;
-    -webkit-appearance: none;
-    margin: .3em 0em 1em;
-    font-family: 'Comfortaa';
-    font-weight: light;
+.header-area .header-top_area {
+    padding: 12px 0;
     background: #c1c45e;
 }
 
-.book-appointment select.form-control {
-    outline: none;
-    font-size: 0.9em;
-    padding: 7px 10px;
-    width: 85%;
-    margin: 5px 0px 16px;
-    border-radius: 0;
-    background: #c1c45e;
-    color: #fff;
-    border: none;
-    border-bottom: 2px solid #332f2d;
-    font-family: 'Comfortaa';
+.header-area .header-top_area .short_contact_list ul li a {
+	font-family: 'Comfortaa';
+	font-weight: Bold;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 50px;
 }
 
-.book-appointment select.form-control option {
-    background: #332f2d;
+.header-area .header-top_area .short_contact_list ul li a i {
+	color: #ffffff;
+    margin-right: 7px;
 }
 
-input[type=submit]:hover {
-    background: #fff;
-    border-color: #fff;
-    border-radius:20px;
+.header-area .header-top_area .social_media_links a {
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 12px;
+}
+
+.header-area .header-top_area .social_media_links a:hover {
     color: #8fae5d;
-    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-    font-family: 'Comfortaa';
 }
 
-input[type=submit] {
+.logo{
+	height: 150px;;
+}
+
+.header-area .main-header-area .main-menu ul li a {
+	font-family: 'Comfortaa';
+	font-weight: Bold;
+    font-size: 15px;
+}
+
+.header-area .header-top_area .short_contact_list ul li a:hover {
+    font-family: 'Comfortaa';
+    font-weight: Bold;
+    font-size: 13px;
+    color: #8fae5d;
+    margin-left: 50px;
+}
+
+.header-area .main-header-area .main-menu ul li a:hover {
+    color: #8bc344;
+}
+
+.header-area .main-header-area .Appointment .book_btn a {
+	font-family: 'Comfortaa';
+    padding: 12px 20px;
+    background-color: #8fae5d;
+}
+
+.header-area .main-header-area .Appointment .book_btn a:hover {
+    padding: 12px 20px;
+    background-color: #ffffff;
+	border-color: #8fae5d;
+	color: #8fae5d;
+}
+
+.service_area {
     background: #8fae5d;
-    border-color: #8fae5d;
-    border-radius: 20px;
-    color: #ffff;
-    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-    font-family: 'Comfortaa';
+    margin-top: 50px;
+	height: 350px;
 }
 
-.book-appointment p {
+.service_area .col-xl-4:nth-child(2) .single_service {
+    background: #c1c45e;
+}
+
+.service_area .single_service h3 {
+	font-family: 'Comfortaa';
+    font-size: 26px;
+    font-weight: Bold;
     color: #fff;
-    font-size: 17px;
-    letter-spacing: .5px;
 }
 
-.book-appointment h2 {
+.service_area .single_service p {
+	font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.welcome_docmed_area .welcome_thumb .thumb_1 img {
+    width: 100%;
+    float: left;
+}
+
+.welcome_docmed_area {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.welcome_docmed_area .welcome_docmed_info h2 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 9px;
+}
+
+.welcome_docmed_area .welcome_docmed_info h3 {
+	font-family: 'Comfortaa';
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 10px;
+	color: #8fae5d;
+}
+
+.welcome_docmed_area .welcome_docmed_info ul li i {
+    margin-right: 10px;
+    color: #8fae5d;
+    font-weight: 16px;
+}
+
+.boxed-btn3-white-2 {
+    color: #ffffff!important;
+    background-color: #8fae5d;
+    display: inline-block;
+    padding: 9px 24px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    border: 1px solid #8fae5d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 25px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 1.5em;
-    font-weight: 500;
-    letter-spacing: 4px;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.boxed-btn3-white-2:hover {
+    background: #ffffff;
+	font-family: 'Comfortaa';
+	font-weight: bold;
+    color: #8fae5d!important;
+    border: 1px solid #8fae5d;
+}
+
+.boxed-btn3-white:hover {
+    background: #fff;
+    color: #8fae5d!important;
+    border: 1px solid transparent;
+}
+
+.our_department_area {
+    background: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.section_title h3 {
     font-family: 'Comfortaa';
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 48px;
+    color: #8fae5d;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 15px;
+}
+
+.section_title p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.our_department_area .single_department .department_content h3 a {
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    color: #1F1F1F;
+    line-height: 33px;
+    font-weight: 300;
+}
+
+.our_department_area .single_department .department_content h3 a:hover {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    color: #8fae5d;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+.our_department_area .single_department .department_content a.learn_more {
+    color: #8fae5d;
+    font-size: 16px;
+}
+
+.our_department_area .single_department .department_content p {
+	font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 25px;
+    color: #727272;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.footer .footer_top {
+    padding-top: 145px;
+    padding-bottom: 129px;
+    background: #332F2D;
+}
+
+.logo-footer{
+	height: 150px;
+}
+
+.footer .footer_top .footer_widget .footer_title {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    font-weight: bold;
+    color: #8fae5d;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.footer .footer_top .footer_widget ul li a:hover {
+    color: #8fae5d;
+}
+
+.footer .copy-right_text {
+    padding-bottom: 30px;
+    background: #8fae5d;
+}
+
+.footer .copy-right_text .copy_right {
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.business_expert_area .business_tabs_area {
+    background: #8fae5d;
+}
+
+.business_expert_area .business_tabs_area .nav .nav-item a {
+	font-family: 'Comfortaa';
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 35px 0px 35px 40px;
+}
+
+.business_expert_area .business_tabs_area .nav .nav-item a.active {
+    background: #c1c45e;
+}
+
+.business_expert_area .business_info h3 {
+	font-family: 'Comfortaa';
+    font-size: 20px;
+    font-weight: 500;
+    color: #8fae5d;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.business_expert_area .business_info p {
+	font-family: 'Montserrat';
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 0;
+	text-align: justify;
+}
+
+.section_title h3::before {
+    position: absolute;
+    left: 0;
+    background: #332f2d;
+    height: 2px;
+    width: 50px;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+.breadcam_bg {
+    background-image: url(../img/banner/banner-nutri1.png);
+}
+
+.bradcam_overlay::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #332f2d 0%, #332f2d 15%, rgba(143, 174, 93, 0) 96%, rgba(125, 185, 232, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.bradcam_area h3 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.bradcam_area p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.welcome_docmed_area .welcome_thumb .thumb_1 img {
+    width: 100%;
+    height: 800px;
+    float: left;
+    padding-bottom: 10%;
+}
+
+.welcome_docmed_area .welcome_docmed_info p {
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.contact-title {
+	font-family: 'Comfortaa';
+	font-weight: bold;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-contact .form-control {
+    font-family: 'Montserrat';
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.boxed-btn {
+    background: #fff;
+    color: #8fae5d !important;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #8fae5d;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.boxed-btn:hover {
+    background: #8fae5d;
+    color: #fff !important;
+    border: 1px solid #8fae5d;
+}
+
+.popup_box h3 {
+	font-family: 'Comfortaa'
+    text-align: center;
+    font-size: 22px;
+    color: #8fae5d;
+    margin-bottom: 46px;
+}
+
+.boxed-btn3 {
+    background: linear-gradient(to right, #8fae5d 0%, #8fae5d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff',GradientType=1 );
+    color: #fff;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.boxed-btn3:hover{
+	background: #fff;
+    color: #8fae5d !important;
+    border: 1px solid #8fae5d;
+}
+
+.overlay_skyblue::before {
+    position: absolute;
+    content: "";
+    background-color: #8fae5d;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.business_expert_area .business_thumb img {
+    width: 100%;
+    height: 350px;
+}
+
+.welcome_docmed_area .welcome_docmed_info h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background: #8fae5d;
+}
+
+.our_department_area .single_department .department_content {
+    padding: 22px 30px 24px 30px;
+    height: 150px;
 }
